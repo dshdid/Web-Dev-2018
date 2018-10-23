@@ -22,12 +22,14 @@ function init(){
     }   
     /**********************************************************/
     var changeSrc = function(event) {
-    if (event.target.src) {
-        let filename = event.target.src.replace(/^.*[\\\/]/, '');
-        event.target.src = "images/flower2.png";
+    console.log("souce:" + event.target.src);
+    let filename = event.target.src.replace(/^.*[\\\/]/, '');            
+    console.log("after cutting:" + filename);
+
+    if (filename == "flower1.png") {
+    event.target.src = "images/flower2.png";
     }
     else{
-        let filename = event.target.src.replace(/^.*[\\\/]/, '');
         event.target.src = "images/flower1.png"; 
         }
     };
