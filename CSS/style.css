@@ -1,0 +1,39 @@
+/*
+p {
+color:blue; 
+font-weight: bold;
+font-size: 50px;
+}
+*/
+
+body{
+    background: aqua;
+}
+
+p, h4{
+    color: red;
+}
+h1{
+    color:blue;
+}
+
+div p{
+    color: darkgreen;
+}
+/* define id with a # */
+#first-para{
+    color:orangered;
+}
+
+/* define classes with a . */
+.second-para{
+    color:darkgreen;
+}
+
+div{
+   border: 4px solid yellow;
+   background: white;
+   color: purple;
+    
+}
+
