@@ -1,4 +1,4 @@
 function greet(){
-    window.alert("Hello");
+    window.alert(img src="images/flower1.png");
 }
     
