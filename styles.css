@@ -30,6 +30,14 @@ a:visited {
   color: black;
 }
 
+#testing{
+    color: darkmagenta;
+}
+
+#work{
+    color:dodgerblue;
+}
+
 p{
     color: darkslategrey;
 }
