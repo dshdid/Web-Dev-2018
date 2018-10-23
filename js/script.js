@@ -4,6 +4,8 @@ function greet(){
 
 function init(){
     document.getElementById("first").src = "images/flower2.png";
+    let images = document.getElementById("container").getElementsByTagName("img");
+    images[1].src = "flower1.png";
 }
 
 

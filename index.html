@@ -6,22 +6,32 @@
         <link rel="stylesheet", href="styles.css">
         
     </head>
-    <body>
+    <body onload="init()">
         <ul class = "navbar">
             <li><a href = "index.html"> Home </a></li>
             <li><a href = "forms.html"> Forms </a></li>
             <li><a href = "http://www.airfrais.eu/us/index.html"> Fresh Air </a></li>
         </ul>
-        <h1>Testing HTML</h1>
+        <h1>Testing HTML/CSS</h1>
+        <h2>AND JavaScript</h2>
         <p><b>Testing Testing</b></p>
         <p><b>1 2 3</b></p>
         <p><b>Does it work?</b></p>
-        <div><button type="button" class="btn btn-success" onclick="greet()">Say Hello</button></div>
         <div>
-        <img width ="200" src = "images/flower2.png" id="first" onclick="init()">
-        <img width ="200" src = "images/flower1.png">
-        <img width ="200" src = "images/flower1.png">
-        <img width ="200" src = "images/flower1.png">
+            <button type="button" class="btn btn-success" onclick="greet()">Say Hello</button>
+        </div>
+        <br>
+        <div>
+         <h4><b>Task 1:</b></h4>
+         <img width ="200" src = "images/flower1.png">
+         <img width ="200" src = "images/flower1.png" id="first">
+         <img width ="200" src = "images/flower1.png">
+        </div>
+        <div id="container">s
+         <h4><b>Task 2:</b></h4>
+         <img width ="200" src = "images/flower2.png">
+         <img width ="200" src = "images/flower2.png">
+         <img width ="200" src = "images/flower2.png">
         </div>
         
         <script src="js/script.js"></script>
