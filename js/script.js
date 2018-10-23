@@ -3,7 +3,7 @@ function greet(){
 }
 
 function init(){
-    document.getElementById("first").src = "flower2.png";
+    document.getElementById("first").src = "images/flower2.png";
 }
 
 
