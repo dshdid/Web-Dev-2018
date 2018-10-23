@@ -1,4 +1,10 @@
 function greet(){
-    window.alert(img src="images/flower1.png");
+    window.alert("HELLO!!!!!!!!!!!!!!!!!!!!!!!");
 }
+
+function init(){
+    document.getElementById("first").src = "flower2.png";
+}
+
+
     
