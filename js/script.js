@@ -23,9 +23,13 @@ function init(){
     /**********************************************************/
     var changeSrc = function(event) {
     if (event.target.src) {
-        event.target.src = "images/flower2.png";
         let filename = event.target.src.replace(/^.*[\\\/]/, '');
+        filename.target.src = "images/flower2.png";
     }
+    else{
+        let filename = event.target.src.replace(/^.*[\\\/]/, '');
+        event.target.src = "images/flower1.png"; 
+        }
     };
     document.getElementById("event").addEventListener("mouseover", changeSrc);
 
