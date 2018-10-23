@@ -18,20 +18,21 @@ function init(){
     let colors = ["red", "orange","yellow", "green", "blue", "purpule", "pink"];
     
     for (var i = spans.length - 1; i >= 0; i--) {
-	   spans[i].style.color = colors[i];
+        spans[i].style.color = colors[i];
     }   
     /**********************************************************/
     var changeSrc = function(event) {
-    console.log("souce:" + event.target.src);
-    let filename = event.target.src.replace(/^.*[\\\/]/, '');            
-    console.log("after cutting:" + filename);
+       
+        /**console.log("souce:" + event.target.src);**/
+        let filename = event.target.src.replace(/^.*[\\\/]/, '');            
+        /**console.log("after cutting:" + filename);**/
 
-    if (filename == "flower1.png") {
-    event.target.src = "images/flower2.png";
-    }
-    else{
-        event.target.src = "images/flower1.png"; 
+        if (filename == "flower1.png") {
+        event.target.src = "images/flower2.png";
         }
+        else{
+            event.target.src = "images/flower1.png"; 
+            }
     };
     document.getElementById("event").addEventListener("mouseover", changeSrc);
 
