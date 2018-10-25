@@ -96,21 +96,18 @@ h4{
     border-color: black;
     border-style:inset;
     position:relative;
-    width: 85%;
+    
 }
 
-/**.sss{
+.sss{
     border-color: darkred;
     border-style:dotted;
     text-decoration-style:dotted;
     text-align:center;
     position:relative;
-    display: block;
-    margin-left: 500;
-    margin-right: 500;
-    box-sizing: border-box;
+    background: linear-gradient(to left, lightskyblue 20%,white 100%)
     
-}**/
+}
 
 footer {
       background-color: #555;
