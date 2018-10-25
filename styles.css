@@ -96,6 +96,9 @@ h4{
     border-color: black;
     border-style:inset;
     position:fixed;
+    max-width: 1450;
+    min-width: 1400;
+    resize: horizontal;
     
 }
 
