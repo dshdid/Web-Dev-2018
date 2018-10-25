@@ -21,6 +21,7 @@ ul.navbar{
     width: 120px;
     display: flex;
     justify-content:flex-start;
+    resize: both;
 }
 ul.navbar li {
   margin: 13px 1;
