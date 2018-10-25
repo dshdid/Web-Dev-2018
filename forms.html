@@ -23,6 +23,14 @@ placeholder = "" : enter something in the box
     
 </head>
 <body>
+    
+    <ul class = "navbar">
+            <li><a href = "index.html"> Home </a></li>
+            <li><a href = "fun.html"> Fun </a></li>
+            <li><a href = "forms.html"> Forms </a></li>
+            <li><a href = "http://www.airfrais.eu/us/index.html"> Fresh Air </a></li>
+        </ul>
+   
     <form action="" method="post">
         
         <label for="name">Name <br>
@@ -38,23 +46,23 @@ placeholder = "" : enter something in the box
         <p>
             <input name = "image" type = "file" btn-info>
         </p>
-        <p>
-            <input name = "submit" type = "submit" class="btn btn-primary">
-        </p>
-        <div>
         <label>
         <input type="checkbox"
                name="you are "
                value="awsome"/>
-            I am awsome.
+            I am awesome.
         </label>
+        <p>
+            <input name = "submit" type = "submit" class="btn btn-primary">
+        </p>
+        <div>
+        </div>
+        <br>
+        <div>
+        <button type="button" class="btn btn-success" onclick="greet()">Hello Again</button>
         </div>
         
     </form>
-    
-    <br>
-    
-    <div><button type="button" class="btn btn-success" onclick="greet()">Hello Again</button></div>
     
     
     <script src="js/script.js"></script>
