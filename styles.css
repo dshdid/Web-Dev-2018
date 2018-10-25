@@ -100,17 +100,18 @@ h4{
     margin-top: 0px !important;
 }
 
-.sss{
+/**.sss{
     border-color: darkred;
     border-style:dotted;
     text-decoration-style:dotted;
     text-align:center;
+    position:relative;
     display: block;
     margin-left: 500;
     margin-right: 500;
     box-sizing: border-box;
     
-}
+}**/
 
 footer {
       background-color: #555;
