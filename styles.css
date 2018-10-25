@@ -95,7 +95,7 @@ h4{
     background-color: plum;
     border-color: black;
     border-style:inset;
-    position:relative;
+    position:fixed;
     
 }
 
