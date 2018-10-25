@@ -1,7 +1,6 @@
 body {
-    background: lightgrey;
+    background: lightgrey !important;
     margin-left: 250 !important;
-    background-image: url("paper.gif") !important;
 }
 
 ul.navbar{
@@ -83,4 +82,8 @@ footer {
       background-color: #555;
       color: white;
       padding: 15px;
+}
+
+html{
+    
 }
