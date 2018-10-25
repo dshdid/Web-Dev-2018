@@ -1,17 +1,20 @@
 body {
     background: lightgrey !important;
-    margin-left: 250;
+    margin-left: 250 !important;
 }
+
 ul.navbar{
     list-style-type: none;
-    position: absolute; 
+    position:fixed;
     top: 30px;
-    left: 15px;
-    width: 150px;
+    left: 20px;
+    width: 120px;
+    display: flex;
+    justify-content:flex-start;
 }
 ul.navbar li {
-  margin: 5px 0;
-  padding: 5px;
+  margin: 13px 1;
+  padding: 10px;
   border-right: 1px solid #17252a;
   border-top: 1px solid #17252a;
   border-left: 10px solid #17252a;
@@ -19,7 +22,9 @@ ul.navbar li {
 }
 
 ul.navbar a{
-  text-decoration: none
+  text-decoration:none;
+  font-size: 15px;
+  margin-right: 100px;
 }
 
 a:link {
@@ -40,11 +45,34 @@ a:visited {
 
 p{
     color: darkslategrey;
+    font-size: 20;
+}
+h1{
+    text-align: center;
+    font-size: 40;
+    font-style: oblique;
+    font-variant:small-caps;
+}
+
+h2{
+    text-align: center;
+    font-size: 30;
+    color: darkred;
 }
 
 h4{
     color: black;
+    font-size: 20;
 }
-html {
-    
+
+.carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+              width: 70%;
+              margin: auto;
+}
+
+footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
 }
