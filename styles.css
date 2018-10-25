@@ -97,6 +97,8 @@ h4{
     border-style:inset;
     position:fixed;
     max-width: 1450;
+    min-width: 1400;
+    resize: horizontal;
     
 }
 
@@ -105,7 +107,7 @@ h4{
     border-style:dotted;
     text-decoration-style:dotted;
     text-align:center;
-    background: linear-gradient(to left, lightskyblue 20%,white 100%)
+    background: linear-gradient(to left, lightskyblue 20%,white 100%);
     
 }
 
