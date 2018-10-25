@@ -1,6 +1,3 @@
-@media (min-width: 100px) {
-
-
 body {
     background: linear-gradient(to left, skyblue 20%,white 100%) !important;
     margin-left: 250 !important;
@@ -113,7 +110,6 @@ footer {
       background-color: #555;
       color: white;
       padding: 15px;
-}
 }
 
 
