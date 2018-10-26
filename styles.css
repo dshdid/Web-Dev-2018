@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left, skyblue 20%,white 100%) !important;
+    background: linear-gradient(to left,antiquewhite  0.1%,white 100%) !important;
     margin-left: 250 !important;
     resize: both !important;
 }
@@ -22,8 +22,10 @@ ul.navbar{
     width: 120px;
     display: flex;
     justify-content:flex-start;
+    resize: both;
 }
 ul.navbar li {
+  background-color: antiquewhite;
   margin: 13px 1;
   padding: 10px;
   border-right: 1px solid #17252a;
@@ -90,11 +92,18 @@ h4{
 }
 
 .jumbotron{
-    background-color: plum;
+    background-color:mediumpurple;
     border-color: black;
     border-style:inset;
     position:fixed;
-    resize: horizontal;
+    padding: 2rem 1rem;
+    padding-top: 2rem;
+    padding-right: 50rem;
+    padding-bottom: 2rem;
+    padding-left: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
     
 }
 
@@ -103,9 +112,12 @@ h4{
     border-style:dotted;
     text-decoration-style:dotted;
     text-align:center;
-    background: linear-gradient(to left, lightskyblue 20%,white 100%);
+    background: linear-gradient(to left, lightskyblue 10%,white 70%);
     width: 50%;
-    display:table-row-group;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     
 }
 
