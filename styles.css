@@ -96,7 +96,8 @@ h4{
     border-color: black;
     border-style:inset;
     position:fixed;
-    
+    margin: auto;
+    margin-top: 1px;
     padding-top: 1rem;
     padding-right: 0rem;
     padding-bottom: 1rem;
