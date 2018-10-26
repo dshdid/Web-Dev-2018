@@ -96,10 +96,14 @@ h4{
     border-color: black;
     border-style:inset;
     position:fixed;
+    
+    padding-top: 1rem;
+    padding-right: 50rem;
+    padding-bottom: 1rem;
+    padding-left: 50rem;
     margin-left: auto;
     margin-right: auto;
     display:block;
-
     
 }
 
