@@ -55,12 +55,17 @@ a:visited {
     width: 50%;
 }
 
-#testing{
-    color: darkmagenta;
-}
-
 #work{
     color:dodgerblue;
+}
+
+ol.list{
+    list-style-type: disc;
+    list-style-position:inside;
+    text-align: left;
+    margin-left: 40% !important;
+    font-size: 15;
+    margin: auto;
 }
 
 p{
@@ -106,6 +111,7 @@ h4{
     margin-right: auto;
     display:block;
     width: 85%;
+    font-size-adjust: auto;
 }
 
 .sss{
