@@ -62,7 +62,10 @@ a:visited {
 ol.list{
     list-style-type: disc;
     list-style-position:inside;
+    text-align: left;
+    margin-left: 35% !important;
     font-size: 15;
+    margin: auto;
 }
 
 p{
