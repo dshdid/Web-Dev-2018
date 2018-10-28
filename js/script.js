@@ -6,7 +6,8 @@ function init(){
     document.getElementById("first").src = "images/flower2.png";
     /**********************************************************/
     let images = document.getElementById("container").getElementsByTagName("img");
-    images[1].src = "images/flower1.png";    
+    images[1].src = "images/flower2.png"; 
+    images[3].src = "images/flower2.png"; 
     /**********************************************************/
     document.getElementById("t3").innerHTML = 'Your are doing great!';
     /**********************************************************/
