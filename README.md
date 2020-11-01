@@ -1,1 +1,1 @@
-# dshdid.github.io
+# Web Dev project 2018 - AGH University
